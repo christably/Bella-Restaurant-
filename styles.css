@@ -46,12 +46,6 @@ header {
     font-size: 16px;
 }
 
-.cart-icon {
-    background-color: #4caf50;
-    padding: 15px;
-    margin: 0 5px;
-}
-
 .close-icon {
     padding: 15px;
     background-color: #2d3436;
@@ -152,18 +146,6 @@ header {
     align-items: center;
 }
 
-.search-bar input {
-    padding: 8px 15px;
-    border: none;
-    background-color: transparent;
-    color: white;
-    border-bottom: 1px solid #4a4a4a;
-}
-
-.search-bar input::placeholder {
-    color: #999;
-}
-
 .search-bar button {
     background-color: transparent;
     border: none;
@@ -172,7 +154,7 @@ header {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/imgs/Food1.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
