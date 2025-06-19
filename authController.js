@@ -1,3 +1,17 @@
+http://localhost:5000/api/auth/register
+
+{
+  "name": "Christabel Aidoo",
+  "email": "christabel@example.com",
+  "username": "christabeldev",
+  "phone": "0541234567",
+  "password": "securePassword",
+  "role": "vendor"
+}
+
+
+
+
 
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
