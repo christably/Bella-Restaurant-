@@ -1,6 +1,0 @@
-[nodemon] restarting due to changes...
-[nodemon] starting `node server.js`
-(node:17820) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `node --trace-warnings ...` to show where the warning was created)
-Server running on port 5000
-MongoDB Connected: 127.0.0.1
