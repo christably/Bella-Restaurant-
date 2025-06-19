@@ -1,3 +1,101 @@
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\controllers\authControllers.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\authRoutes.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\controllers\authControllers.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\controllers\\authControllers.js',       
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\routes\\authRoutes.js',
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\server.js'
+  ]
+}
+
+Node.js v22.15.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module '../controllers/authControllers'
+Require stack:
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\authRoutes.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\authRoutes.js:3:26)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\routes\\authRoutes.js',
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\server.js'
+  ]
+}
+
+Node.js v22.15.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\controllers\authController.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\authRoutes.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\controllers\authController.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\controllers\\authController.js',        
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\routes\\authRoutes.js',
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\server.js'
+  ]
+}
+
+Node.js v22.15.1
+[nodemon] app crashed - waiting for file changes before starting...
+
+
+  
+
+
+
+
+
+
+
+
 cybel@ChristabelAidoo MINGW64 ~/OneDrive/Desktop/advert-platform-backend
 $ npm run dev
 
