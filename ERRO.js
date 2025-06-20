@@ -1,20 +1,36 @@
+Node.js v22.15.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
 [nodemon] starting `node server.js`
-C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\node_modules\router\lib\route.js:228
-        throw new TypeError('argument handler must be a function')
-        ^
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
 
-TypeError: argument handler must be a function
-    at Route.<computed> [as get] (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\node_modules\router\lib\route.js:228:15)
-    at Router.<computed> [as get] (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\node_modules\router\index.js:448:19)
-    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\protectedRoute.js:5:8)
-    at Module._compile (node:internal/modules/cjs/loader:1730:14)
-    at Object..js (node:internal/modules/cjs/loader:1895:10)
-    at Module.load (node:internal/modules/cjs/loader:1465:32)
-    at Function._load (node:internal/modules/cjs/loader:1282:12)
+Error: Cannot find module '../models/userModel'
+Require stack:
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\middleware\authMiddleware.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\protectedRoute.js
+- C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
     at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\middleware\authMiddleware.js:2:14)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\middleware\\authMiddleware.js',
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\routes\\protectedRoute.js',
+    'C:\\Users\\cybel\\OneDrive\\Desktop\\advert-platform-backend\\server.js'
+  ]
+}
 
 Node.js v22.15.1
 [nodemon] app crashed - waiting for file changes before starting...
+
+
 
