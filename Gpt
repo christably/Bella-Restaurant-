@@ -1,0 +1,90 @@
+Assist me in developing a complete API backend of an advertisement management platform.
+
+Requirements:
+1. Tech or dependencies
+Express.js
+Node.js
+Multer
+Claudinary
+Bcrypt
+MongoDB 
+Etc.
+ 
+2. Authentication & Authorization: 
+– Implement user roles; Admin, vendors, and regular users.
+
+Admin Privilege:
+– Create, Read, Update, Delete Ads of vendors
+– Delete vendors
+– Add vendors
+– Update Roles, eg. upgrade a registered user to the status of the vendor or vice versa.
+– Delete vendor
+
+Vendor Privilege:
+– Create, Read, Update, Delete (option to soft delete and restore, option to delete permanently)
+
+Registered User Privilege: 
+– View adds (the same privilege of a visitor who hasn't registered)
+
+3. API Endpoints:
+Admin:
+– Access to all endpoints of vendors and registered users.
+– Endpoints to add vendors, upgrade roles, update roles, etc
+
+Note: Vendors and other users shouldn't have access to admin endpoints 
+
+Vendors:
+– Post Advert (POST): For vendors to create a new advert.    – Get All Adverts (GET): For vendors to view a list of all adverts.
+– Get Advert Details (GET): For users to view a specific advert’s details.
+– Update Advert (PUT): For vendors to edit their posted adverts.
+– Delete Advert (DELETE): For vendors to soft delete an advert.
+– Restore: For vendors to restore deleted adverts
+– Permanently DELETE: For vendors to permanently delete adverts
+
+Note: Registered users and unregistered users should not have access to vendors' endpoints except admins and vendors 
+
+Registered Users and Unregistered:
+– Endpoint to View adverts only
+
+4. User Authentication (POST): Sign up, login, signout endpoints for admin, vendor, and registered user  
+
+5. Search and Filtering Logic:    - Implement server-side search and filter logic based on advert title, category, or price.  
+
+6. Media Upload:  Handle images or videos uploads when vendors post adverts and store the images or videos in the backend.  
+
+6. Register, login, sign out:
+Registration for vendors:
+Must include
+- name (required)
+- email (required)
+- username (required)
+- phone number (required)
+- password ( required)
+
+Registration normal users must include:
+- name (required)
+- email (required)
+- username (required)
+- phone number (required)
+- password ( required)
+
+Note:
+- Username must be unique. That is, another person shouldn't be able to create a username that already exists. When they try to, they should be prompted to update their username with the message: Username unavailable, please update.
+
+An email, username, or phone number that has already been used to register an account can not be used to register a new account.  
+
+- In the case that someone enters an email, username or phone number that has already being used to register, they should be switched to the Login form with the detail filled and asked to enter their password with the message "Account already exists".
+
+Another Option:
+An option for peope  to register with either their google or Twitter account instead.
+
+Login for both vendors and  users:
+- Either email and password
+- Username and password
+- Phone number and password
+
+Users who registered with their Google or Twitter account must be able to log in 
+
+Forgot Password : Suggest the easiest way to go about it and let me decide
+
+Do not write the codes for the files and folders now. Ask me any question you need clarification on 
