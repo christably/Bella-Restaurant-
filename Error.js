@@ -1,3 +1,34 @@
+C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\controllers\authController.js:7
+const generateToken = (user) => {
+      ^
+
+SyntaxError: Identifier 'generateToken' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (C:\Users\cybel\OneDrive\Desktop\advert-platform-backend\routes\authRoutes.js:3:37)
+
+Node.js v22.15.1
+[nodemon] app crashed - waiting for file changes before starting...
+
+
+
+
+
+
+
+
+
+
+
+
+
 const User = require('../models/userModel');
 const bcrypt = require('bcryptjs');
 const generateToken = require('../utils/generateToken');
