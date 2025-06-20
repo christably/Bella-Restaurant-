@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/userModel'); // Adjust path if your model is in another folder
+const User = require('../models/user');
 
 // Middleware to protect private routes
 const protect = async (req, res, next) => {
